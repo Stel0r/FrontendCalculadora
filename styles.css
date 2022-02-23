@@ -33,22 +33,26 @@ body{
 
 
 .boton{
-    padding: 20px;
+    padding: 10px;
     border-radius: 10%;
     background-color: hsl(30, 25%, 89%);
     text-align: center;
     font-family: "spartan",sans-serif;
     border-bottom: solid 4px hsl(28, 16%, 65%);
+    font-size: 20px;
+    color: rgb(82, 82, 82);
 }
 
 .igual{
     background-color: hsl(6, 63%, 50%);
     border-bottom: solid 4px hsl(6, 70%, 34%);
+    color: white;
 }
 
 .azul{
     background-color: hsl(225, 21%, 49%);
     border-bottom: solid 4px hsl(224, 28%, 35%);
+    color:white
 }
 
 .titulo{
@@ -85,4 +89,14 @@ body{
 .boton:focus{
     background-color: hsl(33, 11%, 65%);
     border-bottom: solid 4px hsl(30, 16%, 34%);
+}
+
+.igual:hover{
+    background-color: hsl(6, 66%, 41%);
+    border-bottom: solid 4px hsl(6, 74%, 23%);
+}
+
+.azul:hover{
+    background-color: hsl(225, 28%, 33%);
+    border-bottom: solid 4px hsl(223, 35%, 20%);
 }
