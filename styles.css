@@ -1,0 +1,88 @@
+body{
+    background-color: hsl(222, 26%, 31%);
+}
+
+
+
+.calculadora-base{
+    margin-top: 200px;
+    width: 400px;
+    margin: auto;
+}
+
+.seccion-superior{
+    font-family: "spartan",sans-serif;
+    margin-bottom: 20px;
+}
+
+.rejilla{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    padding: 40px;
+    background-color: hsl(223, 31%, 20%);
+    border-radius: 2%;
+}
+
+.grande{
+    grid-column: span 2;
+}
+
+
+
+.boton{
+    padding: 20px;
+    border-radius: 10%;
+    background-color: hsl(30, 25%, 89%);
+    text-align: center;
+    font-family: "spartan",sans-serif;
+    border-bottom: solid 4px hsl(28, 16%, 65%);
+}
+
+.igual{
+    background-color: hsl(6, 63%, 50%);
+    border-bottom: solid 4px hsl(6, 70%, 34%);
+}
+
+.azul{
+    background-color: hsl(225, 21%, 49%);
+    border-bottom: solid 4px hsl(224, 28%, 35%);
+}
+
+.titulo{
+    color: white;
+    font-size: 25px;
+}
+
+.calc{
+    margin-bottom: 19px;
+}
+
+.display{
+    height: 70px;
+    background-color: hsl(224, 36%, 15%);
+    border-radius: 13px;
+    text-align: right;
+    color: white;
+    font-size: 25px;
+}
+
+.numeros{
+    position: relative;
+    top: 33%;
+    margin-right: 35px;
+    margin-left: 35px;
+    overflow: clip;
+}
+
+.boton:hover{
+    background-color: hsl(32, 16%, 79%);
+    border-bottom: solid 4px hsl(29, 12%, 48%);
+}
+
+.boton:focus{
+    background-color: hsl(33, 11%, 65%);
+    border-bottom: solid 4px hsl(30, 16%, 34%);
+}
